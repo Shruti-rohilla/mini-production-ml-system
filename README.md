@@ -66,7 +66,7 @@ Open http://127.0.0.1:8000/docs, or:
 
 ```
 
-curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d "{...}"
+curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d @sample_request.json
 
 ```
 
